@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <random>
-#include <boost/algorithm/string.hpp>
+// #include <boost/algorithm/string.hpp>
 #include <SFML/Graphics.hpp>
 
 #include "./compiled_assets/single-duck.h"
@@ -56,7 +56,7 @@ void drawSpeechBubble(sf::RenderWindow &window, sf::Font &font, const sf::Vector
 }
 
 void handleTextInput(sf::RenderWindow & window, std::string & input) {
-    boost::algorithm::to_lower(input);
+    // boost::algorithm::to_lower(input);
     std::cout << input << std::endl;
 
     if (input == "quit") window.close();
