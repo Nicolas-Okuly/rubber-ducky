@@ -20,5 +20,5 @@ g++ main.cpp -o duck -lsfml-graphics -lsfml-window -lsfml-system
 ## Windows
 You can compile using the following command:
 ```sh
-g++ main.cpp -o duck.exe -I ./include -L ./lib -lsfml-graphics -lsfml-window -lsfml-system
+g++ main.cpp -o duck.exe -I ./include -L ./lib -lsfml-graphics -lsfml-window -lsfml-system -mwindows
 ```
